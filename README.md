@@ -59,7 +59,7 @@ npm install vue-js-panel
 Then register the library as a plugin to globally install all components:
 
 ```js
-import VueJsPanel from 'vue-js-panel/src'
+import VueJsPanel from 'vue-jspanel'
 import 'jspanel4/dist/jspanel.min.css'
 
 Vue.use(VueJsPanel)
