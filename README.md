@@ -38,7 +38,7 @@ Vue.use(VueJsPanel)
 Or, import components individually for local registration:
 
 ```js
-import { JsPanel } from 'vue-js-panel'
+import { JsPanel } from 'vue-jspanel'
 import 'jspanel4/dist/jspanel.min.css'
 
 export default {
@@ -68,7 +68,7 @@ Vue.use(VueJsPanel)
 Or, import components individually for local registration:
 
 ```js
-import { JsPanel } from 'vue-js-panel/src'
+import { JsPanel } from 'vue-jspanel'
 import 'jspanel4/dist/jspanel.min.css'
 
 export default {
