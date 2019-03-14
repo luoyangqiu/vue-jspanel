@@ -53,7 +53,7 @@ export default {
 Install the library with NPM:
 
 ```bash
-npm install vue-js-panel
+npm install vue-jspanel
 ```
 
 Then register the library as a plugin to globally install all components:
