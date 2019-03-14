@@ -1,0 +1,14 @@
+{
+  "name": "vue-jspanel4",
+  "version": "1.0.2",
+  "description": "rebuild vue-js-panel for IE10/IE11",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "brian",
+  "license": "MIT",
+  "dependencies": {
+    "babel-runtime": "6.26.0"
+  }
+}

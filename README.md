@@ -5,6 +5,7 @@
 ## Usage
 
 ### Directly in the browser
+Just a modern mobile or desktop browser like FF, Chrome, Edge, IE10/IE11, Brave, Opera, Vivaldi. jsPanel 4 is pure javascript and does not depend on any other library.
 
 Drop the library in with a `<script>` tag alongside Vue to globally install all components:
 
@@ -12,7 +13,7 @@ Drop the library in with a `<script>` tag alongside Vue to globally install all 
 <div id="app"><js-panel></js-panel></div>
 
 <script src="https://unpkg.com/vue"></script>
-<script src="https://unpkg.com/vue-js-panel"></script>
+<script src="https://unpkg.com/vue-jspanel"></script>
 <script>
   new Vue({ el: '#app' })
 </script>
@@ -30,7 +31,7 @@ Then register the library as a plugin to globally install all components:
 
 ```js
 import VueJsPanel from 'vue-jspanel'
-import 'jspanel4/dist/jspanel.min.css'
+import 'vue-jspanel4/dist/jspanel.min.css'
 
 Vue.use(VueJsPanel)
 ```
@@ -38,8 +39,8 @@ Vue.use(VueJsPanel)
 Or, import components individually for local registration:
 
 ```js
-import { JsPanel } from 'vue-js-panel'
-import 'jspanel4/dist/jspanel.min.css'
+import { JsPanel } from 'vue-jspanel'
+import 'vue-jspanel4/dist/jspanel.min.css'
 
 export default {
   components: { JsPanel }
@@ -59,8 +60,8 @@ npm install vue-js-panel
 Then register the library as a plugin to globally install all components:
 
 ```js
-import VueJsPanel from 'vue-js-panel/src'
-import 'jspanel4/dist/jspanel.min.css'
+import VueJsPanel from 'vue-jspanel'
+import 'vue-jspanel4/dist/jspanel.min.css'
 
 Vue.use(VueJsPanel)
 ```
@@ -68,8 +69,8 @@ Vue.use(VueJsPanel)
 Or, import components individually for local registration:
 
 ```js
-import { JsPanel } from 'vue-js-panel/src'
-import 'jspanel4/dist/jspanel.min.css'
+import { JsPanel } from 'vue-jspanel'
+import 'vue-jspanel4/dist/jspanel.min.css'
 
 export default {
   components: { JsPanel }
